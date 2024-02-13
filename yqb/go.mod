@@ -1,4 +1,4 @@
-module github.com/flymedllva/ydb-go-qb/yqb
+module github.com/Masterminds/squirrel
 
 go 1.20
 

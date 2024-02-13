@@ -31,6 +31,14 @@ var (
 	// dollar-prefixed positional placeholders (e.g. $p1, $p2, $p3).
 	// DollarP use for YDB create DECLARE params.
 	DollarP = dollarpFormat{}
+
+	// Colon is a PlaceholderFormat instance that replaces placeholders with
+	// colon-prefixed positional placeholders (e.g. :1, :2, :3).
+	Colon = colonFormat{}
+
+	// AtP is a PlaceholderFormat instance that replaces placeholders with
+	// "@p"-prefixed positional placeholders (e.g. @p1, @p2, @p3).
+	AtP = atpFormat{}
 )
 
 type questionFormat struct{}
